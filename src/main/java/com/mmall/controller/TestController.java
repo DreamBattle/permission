@@ -18,6 +18,7 @@ public class TestController {
         return "hello,permission";
     }
 
+
 //    @RequestMapping("/hello.json")
 //    @ResponseBody
 //    public JsonData hello() {
