@@ -6,5 +6,10 @@
 5.配置mybatis-config.xml
 6.配置logback.xml
 
+项目准备：
+1.mybatis generate核心类生成
+2.项目接口定义 common.JsonData -json,page
+3.全局异常处理类 common.SpringExceptionReslover, Exception.PermissionException
+
 
 
