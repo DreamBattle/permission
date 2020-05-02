@@ -4,7 +4,7 @@
 3.配置spring-servlet.xml
 4.配置applicationContext.xml
 5.配置mybatis-config.xml
-6.配置logback.xml
+6.配置logback.xml（IntelliJ IDEA 注解@Slf4j后找不到log，在IntelliJ IDEA上安装lombok插件重启可以解决）
 
 项目准备：
 1.mybatis generate核心类生成
