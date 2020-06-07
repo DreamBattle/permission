@@ -12,4 +12,5 @@
 3.全局异常处理类 common.SpringExceptionReslover, Exception.PermissionException
 4.校验工具-validator
 5.Json转换工具-Jackon convert
-
+6.获取Spring上下文
+7.Http请求前后监听HttpInterceptor

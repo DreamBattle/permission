@@ -10,9 +10,17 @@
     <!--启动注解驱动的SpringMVC功能-->
     <mvc:annotation-driven />
 
+    <mvc:interceptors>
+        <bean class="com.mmall.common.HttpIntercepter" />
+    </mvc:interceptors>
+
     <!--启动包扫描功能-->
     <context:component-scan base-package="com.mmall.controller" />
     <context:component-scan base-package="com.mmall.service" />
+
+    <!--  将ApplicationContextHelper纳入Spring管理  -->
+    <bean class="com.mmall.common.ApplicationContextHelper" lazy-init="false" />
+
 
     <!--<bean class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping" />-->
 
